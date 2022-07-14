@@ -307,22 +307,34 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- footer_end -->
         
 
-    <!-- form itself end-->
-    <form id="test-form" class="white-popup-block mfp-hide">
+    <!-- form resa end-->
+    <form id="add_resa" action="add_resa.php" method="post" class="white-popup-block mfp-hide">
         <div class="popup_box ">
                 <div class="popup_inner">
-                    <h3>Check Availability</h3>
+                    <h3>Demande de réservation</h3>
                     <form action="#">
                         <div class="row">
-                            <div class="col-xl-6">
-                                <input id="datepicker" placeholder="Check in date">
+                            <div class="col-xl-12">
+                                <input type="text" placeholder="Nom" name="nom" />
+                            </div>
+                            <div class="col-xl-12">
+                                <input type="text" placeholder="Prénom" name="prenom" />
+                            </div>
+                            <div class="col-xl-12">
+                                <input type="email" placeholder="Email" name="email" />
+                            </div>
+                            <div class="col-xl-12">
+                                <input type="text" placeholder="Téléphone" name="telephone" />
                             </div>
                             <div class="col-xl-6">
-                                <input id="datepicker2" placeholder="Check out date">
+                                <input id="datepicker" placeholder="Check in date" name="entree">
+                            </div>
+                            <div class="col-xl-6">
+                                <input id="datepicker2" placeholder="Check out date" name="sortie">
                             </div>
                             <div class="col-xl-6">
                                 <select class="form-select wide" id="default-select" class="">
-                                    <option data-display="Adult">1</option>
+                                    <option data-display="Adultes">1</option>
                                     <option value="1">2</option>
                                     <option value="2">3</option>
                                     <option value="3">4</option>
@@ -330,7 +342,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                             </div>
                             <div class="col-xl-6">
                                 <select class="form-select wide" id="default-select" class="">
-                                    <option data-display="Children">1</option>
+                                    <option data-display="Enfants">1</option>
                                     <option value="1">2</option>
                                     <option value="2">3</option>
                                     <option value="3">4</option>
@@ -338,11 +350,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                             </div>
                             <div class="col-xl-12">
                                 <select class="form-select wide" id="default-select" class="">
-                                    <option data-display="Room type">Room type</option>
-                                    <option value="1">Laxaries Rooms</option>
-                                    <option value="2">Deluxe Room</option>
-                                    <option value="3">Signature Room</option>
-                                    <option value="4">Couple Room</option>
+                                    <option data-display="Room type">Type de chambre</option>
+                                    <option value="bungalow">Bungalow</option>
+                                    <option value="chambre">Chambre confort</option>
                                 </select>
                             </div>
                             <div class="col-xl-12">
