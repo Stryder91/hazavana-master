@@ -1,5 +1,6 @@
 # Hazavana Master
 
+## QUESTIONS A PAPA
 Envoi d'email ? 
 
 C'est quoi les champs d'une résa ? 
@@ -19,11 +20,11 @@ C'est quoi les champs d'une résa ?
 
 ## BDD 
 
-- table admin
-- table moramanga
-- table lodge (foulpointe)
+- table admin (pour le hash du mdp)
+- table resa moramanga
+- table resa lodge (foulpointe)
 
-## PHP
+## Fichiers PHP
 
 Point de départ : 
 	- config.php pout se connecter à la BDD
@@ -34,3 +35,6 @@ Point de départ :
 # Composants
 
 index.php -> form pour créer une résa
+
+### Couleur principale : 
+#D7B141 (jaune)

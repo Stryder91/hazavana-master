@@ -33,80 +33,12 @@
         <![endif]-->
 
     <!-- header-start -->
-    <header>
-        <div class="header-area ">
-            <div id="sticky-header" class="main-header-area">
-                <div class="container-fluid p-0">
-                    <div class="row align-items-center no-gutters">
-                        <div class="col-xl-5 col-lg-6">
-                            <div class="main-menu  d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a href="index.html">home</a></li>
-                                        <li><a class="active" href="rooms.html">rooms</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="elements.html">elements</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2">
-                            <div class="logo-img">
-                                <a href="index.html">
-                                    <img src="img/logo.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-4 d-none d-lg-block">
-                            <div class="book_room">
-                                <div class="socail_links">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-facebook-square"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="book_btn d-none d-lg-block">
-                                    <a class="popup-with-form" href="#test-form">Book A Room</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include("header.php"); ?>
     <!-- header-end -->
 
     <!-- bradcam_area_start -->
     <div class="bradcam_area breadcam_bg_1">
-        <h3>Laxaries Rooms</h3>
+        <h3>Hazavana Lodge</h3>
     </div>
     <!-- bradcam_area_end -->
 
@@ -116,8 +48,8 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-100">
-                        <span>Our Offers</span>
-                        <h3>Ongoing Offers</h3>
+                        <span>Nos chambres</span>
+                        <h3>Bungalows et chambre confort</h3>
                     </div>
                 </div>
             </div>
@@ -127,42 +59,25 @@
                         <div class="about_thumb">
                             <img src="img/offers/1.png" alt="">
                         </div>
-                        <h3>Up to 35% savings on Club <br> 
-                                rooms and Suites</h3>
+                        <h3>Bungalow</h3>
                         <ul>
-                            <li>Luxaries condition</li>
-                            <li>3 Adults & 2 Children size</li>
+                            <li>60 000 AR / nuitée </li>
+                            <li>Chambre twin (1 lit double)</li>
                             <li>Sea view side</li>
                         </ul>
                         <a href="#" class="book_now">book now</a>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_offers">
-                        <div class="about_thumb">
-                            <img src="img/offers/2.png" alt="">
-                        </div>
-                        <h3>Up to 35% savings on Club <br> 
-                                rooms and Suites</h3>
-                        <ul>
-                            <li>Luxaries condition</li>
-                            <li>3 Adults & 2 Children size</li>
-                            <li>Sea view side</li>
-                        </ul>
-                        <a href="#" class="book_now">book now</a>
-                    </div>
-                </div>
+                
                 <div class="col-xl-4 col-md-4">
                     <div class="single_offers">
                         <div class="about_thumb">
                             <img src="img/offers/3.png" alt="">
                         </div>
-                        <h3>Up to 35% savings on Club <br> 
-                                rooms and Suites</h3>
+                        <h3>Chambre confort</h3>
                         <ul>
-                            <li>Luxaries condition</li>
-                            <li>3 Adults & 2 Children size</li>
-                            <li>Sea view side</li>
+                            <li>40 000 AR / nuitée</li>
+                            <li>Chambre twin</li>
                         </ul>
                         <a href="#" class="book_now">book now</a>
                     </div>

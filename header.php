@@ -7,24 +7,23 @@
 											<div class="main-menu  d-none d-lg-block">
 													<nav>
 															<ul id="navigation">
-																	<li><a class="active" href="index.html">home</a></li>
-																	<li><a href="rooms.html">Chambres</a></li>
+																	<li><a class="active" href="index.php">home</a></li>
 																	<li><a href="about.html">About</a></li>
-																	<li><a href="#">blog <i class="ti-angle-down"></i></a>
+																	<li><a href="#">Chambres <i class="ti-angle-down"></i></a>
 																			<ul class="submenu">
-																					<li><a href="blog.html">blog</a></li>
-																					<li><a href="single-blog.html">single-blog</a></li>
+																					<li><a href="rooms_lodge.php">Moramanga</a></li>
+																					<li><a href="rooms_lodge.php">Foulpointe</a></li>
 																			</ul>
 																	</li>
-																	<li><a href="contact.html">Contact</a></li>
+																	<li><a href="#contact">Contact</a></li>
 															</ul>
 													</nav>
 											</div>
 									</div>
 									<div class="col-xl-2 col-lg-2">
 											<div class="logo-img">
-													<a href="index.html">
-															<img src="img/logo.svg" alt="">
+													<a href="index.php">
+														<img src="img/logo.svg" alt="logo hazavana">
 													</a>
 											</div>
 									</div>
@@ -37,20 +36,10 @@
 																					<i class="fa fa-facebook-square"></i>
 																			</a>
 																	</li>
-																	<li>
-																			<a href="#">
-																					<i class="fa fa-twitter"></i>
-																			</a>
-																	</li>
-																	<li>
-																			<a href="#">
-																					<i class="fa fa-instagram"></i>
-																			</a>
-																	</li>
 															</ul>
 													</div>
 													<div class="book_btn d-none d-lg-block">
-															<a class="popup-with-form" href="#add_resa">Book A Room</a>
+															<a class="popup-with-form font-weight-bold" href="#add_resa">RESERVER</a>
 													</div>
 											</div>
 									</div>
