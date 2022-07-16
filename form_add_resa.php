@@ -1,7 +1,8 @@
 <form id="add_resa" action="./admin/add_resa.php" method="post" class="white-popup-block mfp-hide">
-	<div class="popup_box ">
+	<div class="popup_box">
 		<div class="popup_inner">
 			<h3>Demande de réservation</h3>
+			<p class="primColor"> Une remise de 5% est accordée aux clients ayant effectué une réservation de plus de 5 nuitées. </p>
 				<div class="row">		
 					<div class="col-xl-12">
 						<input class="form-group form-control" type="text" placeholder="Nom" name="nom" />
@@ -39,13 +40,13 @@
 					</div>
 					<div class="col-xl-12">
 						<select class="form-select wide" id="default-select" name="type_chambre">
-							<option data-display="Room type">Type de chambre</option>
+							<option data-display="Type de chambre">Type de chambre</option>
 							<option value="bungalow">Bungalow</option>
 							<option value="chambre">Chambre confort</option>
 						</select>
 					</div>
 					<div class="col-xl-12">
-							<button type="submit" class="boxed-btn3">Check Availability</button>
+							<button type="submit" class="boxed-btn3">Demande de Reservation</button>
 					</div>
 				</div>
 			</form>

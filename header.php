@@ -8,14 +8,14 @@
 													<nav>
 															<ul id="navigation">
 																	<li><a class="active" href="index.php">home</a></li>
-																	<li><a href="about.html">About</a></li>
+																	<li><a href="about.php">Informations</a></li>
 																	<li><a href="#">Chambres <i class="ti-angle-down"></i></a>
 																			<ul class="submenu">
 																					<li><a href="rooms_lodge.php">Moramanga</a></li>
 																					<li><a href="rooms_lodge.php">Foulpointe</a></li>
 																			</ul>
 																	</li>
-																	<li><a href="#contact">Contact</a></li>
+																	<li><a href="contact.php">Contact</a></li>
 															</ul>
 													</nav>
 											</div>

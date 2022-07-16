@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Stryder91/hazavana-master#readme",
   "devDependencies": {
     "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "sass-loader": "^13.0.2"
   }
 }

@@ -38,3 +38,7 @@ index.php -> form pour créer une résa
 
 ### Couleur principale : 
 #D7B141 (jaune)
+
+### PRIX
+80k / 95k
+100k / 130k
