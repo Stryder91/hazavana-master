@@ -30,30 +30,33 @@
 
 <body>
 		<!-- features_room_startt -->
-    <div class="features_room">
+    <div class="features_room features_room_perso">
        
         <div class="rooms_here">
-            <div class="single_rooms">
-                <div class="room_thumb">
-                    <img src="img/landscape.jpg" alt="foulpointe">
-                    <div class="room_heading d-flex justify-content-between align-items-center">
-                        <div class="room_heading_inner">
-                            <span>From $250/night</span>
-                            <h3>Hazavana Lodge à Foulpointe</h3>
-                        </div>
-                        <a href="#" class="line-button">book now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="single_rooms">
-                <div class="room_thumb">
+
+					<a href="index_lodge.php">
+						<div class="single_rooms single_rooms_perso">
+								<div class="room_thumb room_thumb_perso">
+										<img src="img/landscape.jpg" alt="foulpointe">
+										<div class="room_heading d-flex justify-content-between align-items-center">
+												<div class="room_heading_inner">
+														<span>A partir de 80 000 AR / nuit</span>
+														<h3>Hazavana Lodge à Foulpointe</h3>
+												</div>
+												<span class="line-button">Découvrir</span>
+										</div>
+								</div>
+						</div>
+					</a>
+            <div class="single_rooms single_rooms_perso">
+                <div class="room_thumb room_thumb_perso">
                     <img src="img/rooms/2.png" alt="">
                     <div class="room_heading d-flex justify-content-between align-items-center">
                         <div class="room_heading_inner">
-                            <span>From $250/night</span>
-                            <h3>Deluxe Room</h3>
+                            <span>A partir de 60 000 AR / nuit </span>
+                            <h3>Hazavana Hôtel à Moramanga</h3>
                         </div>
-                        <a href="#" class="line-button">RESERVER</a>
+                        <a href="#" class="line-button">Découvrir</a>
                     </div>
                 </div>
             </div>

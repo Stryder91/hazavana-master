@@ -7,12 +7,12 @@
 											<div class="main-menu  d-none d-lg-block">
 													<nav>
 															<ul id="navigation">
-																	<li><a class="active" href="index.php">home</a></li>
-																	<li><a href="about.php">Informations</a></li>
+																	<li><a class="active" href="index.php">Home</a></li>
+																	<li><a href="about_lodge.php">Informations</a></li>
 																	<li><a href="#">Chambres <i class="ti-angle-down"></i></a>
 																			<ul class="submenu">
-																					<li><a href="rooms_lodge.php">Moramanga</a></li>
-																					<li><a href="rooms_lodge.php">Foulpointe</a></li>
+																					<li><a href="rooms_lodge_bungalow.php">Bungalow</a></li>
+																					<li><a href="rooms_lodge.php">Chambre confort</a></li>
 																			</ul>
 																	</li>
 																	<li><a href="contact.php">Contact</a></li>

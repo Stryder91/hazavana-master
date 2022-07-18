@@ -147,8 +147,6 @@
 
     <?php include("footer.php"); ?>
 
-    <!-- link that opens popup -->
-
     <!-- form itself end-->
     <?php include("form_add_resa.php"); ?>
     <!-- form itself end -->
