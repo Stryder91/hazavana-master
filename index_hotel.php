@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Hazavana Lodge | Foulpointe</title>
+    <title>Hazavana Hotel | Moramanga</title>
     <meta name="description" content="Hazavana Hotel Madagascar Tourisme Moramanga Foulpointe Paysage Plage Vacances Chambres Confort">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -36,37 +36,37 @@
     <!-- slider_area_start -->
     <div class="slider_area">
         <div class="slider_active owl-carousel">
-            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
+            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_hotel_1">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                                <h3>Hazavana Lodge</h3>
-                                <p>Bienvenue à Foulpointe</p>
+                                <h3>Hazavana Hôtel</h3>
+                                <p>Bienvenue à Moramanga</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_3">
+            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_hotel_2">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                                <h3>Hazavana Lodge</h3>
-                                <p>Bienvenue à Foulpointe</p>
+                                <h3>Hazavana Hôtel</h3>
+                                <p>Bienvenue à Moramanga</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_hotel_3">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                                <h3>Hazavana Lodge</h3>
-                                <p>Bienvenue à Foulpointe</p>
+                                <h3>Hazavana Hôtel</h3>
+                                <p>Bienvenue à Moramanga</p>
                             </div>
                         </div>
                     </div>

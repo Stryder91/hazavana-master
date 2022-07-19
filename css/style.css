@@ -406,13 +406,16 @@ h3 {
 	background: #D7B141;
 	color: #fff
 }
-
+.section_title {
+	margin-top: 100px;
+}
 .section_title span {
 	color: #D7B141;
 	font-size: 28px;
 	font-weight: 400;
 	margin-bottom: 15px;
-	display: block
+	display: block;
+	margin-top: 30px;
 }
 
 .section_title h3 {
@@ -898,6 +901,22 @@ h3 {
 	background-image: url(../img/piscine.jpg)
 }
 
+.slider_bg_3 {
+	background-image: url(../img/piscine3.jpg)
+}
+
+.slider_bg_hotel_1 {
+	background-image: url(../img/hotel4.jpg)
+}
+
+.slider_bg_hotel_2 {
+	background-image: url(../img/luxe_room.jpg)
+}
+
+.slider_bg_hotel_3 {
+	background-image: url(../img/hotel3.jpg)
+}
+
 .slider_area .single_slider {
 	height: 100vh;
 	background-size: cover;
@@ -1361,7 +1380,21 @@ h3 {
 .features_room .rooms_here .single_rooms {
 	position: relative;
 	width: 50%;
-	float: left
+	float: left;
+}
+
+.features_room .rooms_here .single_rooms_quatro {
+	height: 450px;
+}
+.features_room .rooms_here .room_thumb_quatro {
+	height: 100%;
+}
+
+.features_room .rooms_here .single_rooms img {
+	object-fit: cover;
+	min-width: 100%;
+	min-height: 100%;
+	object-position: center bottom;
 }
 
 @media (max-width: 767px) {
@@ -2127,7 +2160,7 @@ h3 {
 }
 
 .contact-section {
-	padding: 130px 0 100px
+	padding: 200px 0 0px
 }
 
 @media (max-width: 991px) {
@@ -4709,6 +4742,12 @@ h6 {
 
 /************LTR MR****************/
 
+/*HEAdER*/
+
+.fb_cadre img{
+	width: 40px;
+	height: auto;
+}
 /*PORTAL index.php*/
 .features_room_perso {
 	height: 100vh;

@@ -23,7 +23,7 @@
 												<li>Canal+ et wifi</li>
 												<li>Terrasse calme et paisible</li>
 										</ul>
-										<a href="#" class="book_now font-weight-bold">RESERVER</a>
+										<a href="rooms_lodge.php" class="book_now font-weight-bold">VOIR CHAMBRE</a>
 								</div>
 						</div>
 						<div class="col-xl-4 col-md-4">
@@ -38,7 +38,7 @@
 												<li>Pour 6 personnes</li>
 												<li>Canal+ et wifi</li>
 										</ul>
-										<a href="#" class="book_now font-weight-bold">RESERVER</a>
+										<a href="rooms_lodge.php" class="book_now font-weight-bold">VOIR CHAMBRE</a>
 								</div>
 						</div>
 				</div>

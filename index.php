@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Hazavana Hotel</title>
+    <title>Hazavana Hotel | Lodge</title>
     <meta name="description" content="Hazavana Hotel Madagascar Tourisme Moramanga Foulpointe Paysage Plage Vacances Chambres Confort">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,32 +34,34 @@
        
         <div class="rooms_here">
 
-					<a href="index_lodge.php">
-						<div class="single_rooms single_rooms_perso">
-								<div class="room_thumb room_thumb_perso">
-										<img src="img/landscape.jpg" alt="foulpointe">
-										<div class="room_heading d-flex justify-content-between align-items-center">
-												<div class="room_heading_inner">
-														<span>A partir de 80 000 AR / nuit</span>
-														<h3>Hazavana Lodge à Foulpointe</h3>
-												</div>
-												<span class="line-button">Découvrir</span>
-										</div>
-								</div>
-						</div>
-					</a>
-            <div class="single_rooms single_rooms_perso">
-                <div class="room_thumb room_thumb_perso">
-                    <img src="img/rooms/2.png" alt="">
-                    <div class="room_heading d-flex justify-content-between align-items-center">
-                        <div class="room_heading_inner">
-                            <span>A partir de 60 000 AR / nuit </span>
-                            <h3>Hazavana Hôtel à Moramanga</h3>
+            <a href="index_lodge.php">
+                <div class="single_rooms single_rooms_perso">
+                    <div class="room_thumb room_thumb_perso">
+                        <img src="img/landscape.jpg" alt="foulpointe">
+                        <div class="room_heading d-flex justify-content-between align-items-center">
+                            <div class="room_heading_inner">
+                                <span>A partir de 80 000 AR / nuit</span>
+                                <h3>Hazavana Lodge à Foulpointe</h3>
+                            </div>
+                            <span class="line-button">Découvrir</span>
                         </div>
-                        <a href="#" class="line-button">Découvrir</a>
                     </div>
                 </div>
-            </div>
+            </a>
+            <a href="index_hotel.php">
+                <div class="single_rooms single_rooms_perso">
+                    <div class="room_thumb room_thumb_perso">
+                        <img src="img/hotel2.jpg" alt="hotel hazavana">
+                        <div class="room_heading d-flex justify-content-between align-items-center">
+                            <div class="room_heading_inner">
+                                <span>A partir de 35 000 AR / nuit </span>
+                                <h3>Hazavana Hôtel à Moramanga</h3>
+                            </div>
+                            <span class="line-button">Découvrir</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
     <!-- JS here -->

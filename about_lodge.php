@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Montana</title>
+    <title>Hazavana | Informations</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -38,7 +38,7 @@
 
     <!-- bradcam_area_start -->
     <div class="bradcam_area breadcam_bg">
-        <h3>Hazavana Lodge</h3>
+        <h3>Informations sur l'hôtel</h3>
     </div>
     <!-- bradcam_area_end -->
 
@@ -81,8 +81,101 @@
             </div>
         </div>
     </div>
-    <!-- about_main_info_end -->
-    <!-- about_info_area_start -->
+       <!-- features_room_startt -->
+       <div class="features_room">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center">
+                        <span class="mb-20 mt-20">Profitez de l'hotel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rooms_here">
+            <div class="single_rooms single_rooms_quatro">
+                <div class="room_thumb room_thumb_quatro">
+                    <img src="img/piscine5.jpg" alt="piscine">
+                    <div class="room_heading d-flex justify-content-between align-items-center">
+                        <div class="room_heading_inner">
+                            <span>Il fait chaud ? Rafraichissez-vous!</span>
+                            <h3>Piscine à l'image de mickey</h3>
+                        </div>
+                        <a href="about_lodge.php" class="line-button">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single_rooms single_rooms_quatro">
+                <div class="room_thumb room_thumb_quatro">
+                    <img src="img/babyfoot2.jpg" alt="babyfoot">
+                    <div class="room_heading d-flex justify-content-between align-items-center">
+                        <div class="room_heading_inner">
+                            <span>Amusez-vous à marquer des buts!</span>
+                            <h3>Baby-foots pour adultes et enfants</h3>
+                        </div>
+                        <a href="about_lodge.php" class="line-button">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single_rooms single_rooms_quatro">
+                <div class="room_thumb room_thumb_quatro">
+                    <img src="img/chalet.jpg" alt="chalet">
+                    <div class="room_heading d-flex justify-content-between align-items-center">
+                        <div class="room_heading_inner">
+                            <span>Déjeuner, discuter et se relaxer ?</span>
+                            <h3>Chalet central devant la piscine </h3>
+                        </div>
+                        <a href="about_lodge.php" class="line-button">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single_rooms single_rooms_quatro">
+                <div class="room_thumb room_thumb_quatro">
+                    <img src="img/plage.jpg" alt="page">
+                    <div class="room_heading d-flex justify-content-between align-items-center">
+                        <div class="room_heading_inner">
+                            <span>Sur l'eau ou dans l'eau, découvrez la barrière de corail</span>
+                            <h3>Tour de pirogue <br/> à quelques minutes de l'hotel</h3>
+                        </div>
+                        <a href="about_lodge.php" class="line-button">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- features_room_end -->
+
+    <div class="about_area" id="presentation_lodge">
+		<div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5">
+                        <div class="about_info">
+                                <div class="section_title mb-20px">
+                                        <span class="font-weight-bold" >Découvrez Foulpointe </span>
+                                        <h3>Activités aux alentours</h3>
+                                </div>
+                                <p>
+                                        
+                                    Hazavana Lodge, votre nouvel hôtel sur Foulpointe, vous propose des chambres familiales et des bungalows à juste 5 minutes du lagon de foulpointe pour des prix abordables. Venez profiter d’un séjour en toute tranquilité, ainsi que des activités à l'hôtel et aux alentours!
+                                        
+                                </p>
+                                <a href="about.php" class="line-button">Découvrir</a>
+                        </div>
+                </div>
+                <div class="col-xl-7 col-lg-7">
+                        <div class="about_thumb d-flex">
+                                <div class="fit_img img_lodge img_1_lodge">
+                                        <img src="img/babyfoot.jpg" alt="">
+                                </div>
+                                <div class="fit_img img_lodge img_2_lodge">
+                                        <img src="img/piscine_debout.jpg" alt="">
+                                </div>
+                        </div>
+                </div>
+            </div>
+		</div>
+    </div>
+
     <div class="about_info_area">
         <div class="about_active owl-carousel">
             <div class="single_slider about_bg_1"></div>
@@ -100,49 +193,9 @@
     <?php include("gallery.php"); ?>
     <?php include("footer.php"); ?>
 
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/gijgo.min.js"></script>
+    <?php include("form_add_resa.php"); ?>
 
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-
-    <script src="js/main.js"></script>
-    <script>
-        $('#datepicker').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-             rightIcon: '<span class="fa fa-caret-down"></span>'
-         }
-        });
-        $('#datepicker2').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-             rightIcon: '<span class="fa fa-caret-down"></span>'
-         }
-
-        });
-    </script>
+    <?php include("scriptsJS.php"); ?>
 
 
 </body>
