@@ -33,7 +33,7 @@
         <![endif]-->
 
     <!-- header-start -->
-    <?php include("header.php"); ?>
+    <?php include("header_lodge.php"); ?>
     <!-- header-end -->
 
     <!-- bradcam_area_start -->
@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-md-6 lg:p-10">
-                    <div class="single_about_info">
+                    <div class="single_about_info col-lg-8 m-auto">
                         <h3 class="primColor">Toutes les prestations sont gratuites </h3>
                         <ul>
                             <li>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-6">
-                    <div class="single_about_info coucou">
+                    <div class="single_about_info col-lg-8 m-auto">
                         <h3 class="primColor">Conditions d'hébergement</h3>
                         <ul>
                             <li>🥥  Arrivée à toute heure, départ à midi.</li>
@@ -81,13 +81,19 @@
             </div>
         </div>
     </div>
-       <!-- features_room_startt -->
-       <div class="features_room">
+    <div class="mt-5">
+        <div class="d-flex m-auto col-12 col-sm-6 col-md-4 col-lg-3 active">
+            <img src="img/accueil_lodge.jpg" class="img-fluid mx-auto d-block" alt="img1">
+        </div>
+    </div>
+    
+    <!-- features_room_startt -->
+    <div class="features_room">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center">
-                        <span class="mb-20 mt-20">Profitez de l'hotel</span>
+                        <span class="mb-20 mt-20 font-weight-bold">Profitez de l'hotel</span>
                     </div>
                 </div>
             </div>
@@ -165,10 +171,10 @@
                 <div class="col-xl-7 col-lg-7">
                         <div class="about_thumb d-flex">
                                 <div class="fit_img img_lodge img_1_lodge">
-                                        <img src="img/babyfoot.jpg" alt="">
+                                        <img src="img/transat.jpg" alt="">
                                 </div>
                                 <div class="fit_img img_lodge img_2_lodge">
-                                        <img src="img/piscine_debout.jpg" alt="">
+                                        <img src="img/pere_noel.jpg" alt="">
                                 </div>
                         </div>
                 </div>

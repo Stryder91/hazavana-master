@@ -28,70 +28,74 @@
 </head>
 
 <body>
-    <?php include("header.php"); ?>
+    <?php include("header_lodge.php"); ?>
 
     <!-- ================ contact section start ================= -->
     <section class="contact-section mt-20">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="contact-title">Envoyer un email</h2>
-                    </div>
-                    <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="./admin/contact_process.php" method="post" id="contactForm">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message | Question'" placeholder="Message | Question"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Prénom">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Sujet'" placeholder="Sujet">
-                                    </div>
+        <div class="container">
+            <div>
+                <h2 class="contact-title">Ou se trouve l'hôtel ?</h2>
+                <img src="img/map.jpg" alt="map">
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h2 class="contact-title">Envoyer un email</h2>
+                </div>
+                <div class="col-lg-8">
+                    <form class="form-contact contact_form" action="./admin/contact_process.php" method="post" id="contactForm">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message | Question'" placeholder="Message | Question"></textarea>
                                 </div>
                             </div>
-                            <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Envoyer</button>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Prénom">
+                                </div>
                             </div>
-                        </form>
-                    </div>
-                    <div class="col-lg-3 offset-lg-1">
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-home"></i></span>
-                            <div class="media-body">
-                                <h3>Quartier Mahavelona</h3>
-                                <p>Foulpointe, Madagascar</p>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Sujet'" placeholder="Sujet">
+                                </div>
                             </div>
                         </div>
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                            <div class="media-body">
-                                <h3>+261 33 093 98 98</h3>
-                                <p>Numéro de téléphone</p>
-                            </div>
+                        <div class="form-group mt-3">
+                            <button type="submit" class="button button-contactForm boxed-btn">Envoyer</button>
                         </div>
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-email"></i></span>
-                            <div class="media-body">
-                                <h3>michelrasamy@gmail.com</h3>
-                                <p>Répond en quelques heures</p>
-                            </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-home"></i></span>
+                        <div class="media-body">
+                            <h3>Quartier Mahavelona</h3>
+                            <p>Foulpointe, Madagascar</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                        <div class="media-body">
+                            <h3>+261 33 093 98 98</h3>
+                            <p>Numéro de téléphone</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-email"></i></span>
+                        <div class="media-body">
+                            <h3>michelrasamy@gmail.com</h3>
+                            <p>Répond en quelques heures</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     <!-- ================ contact section end ================= -->
     
     <?php include("contact_tel.php"); ?>

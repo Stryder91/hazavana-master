@@ -411,7 +411,7 @@ h3 {
 }
 .section_title span {
 	color: #D7B141;
-	font-size: 28px;
+	font-size: 22px;
 	font-weight: 400;
 	margin-bottom: 15px;
 	display: block;
@@ -975,7 +975,7 @@ h3 {
 
 .about_area {
 	padding-top: 200px;
-	padding-bottom: 100px
+	padding-bottom: 0px
 }
 
 @media (max-width: 767px) {
@@ -4742,12 +4742,22 @@ h6 {
 
 /************LTR MR****************/
 
-/*HEAdER*/
+ul li {
+	margin-top: 8px;
+}
+.form-group {
+	border-radius: 0 !important;
+}
 
+.form-control {
+	border-radius: 0 !important;
+}
+/*HEAdER*/
 .fb_cadre img{
 	width: 40px;
 	height: auto;
 }
+
 /*PORTAL index.php*/
 .features_room_perso {
 	height: 100vh;
@@ -4761,9 +4771,11 @@ h6 {
 	height: 100%;
 }
 /*END PORTAL*/
+
 .primColor {
 	color: #D7B141 !important;
 }
+
 /*Lodge Presentation*/
 .img_lodge {
 	height: 220px;
@@ -4807,6 +4819,20 @@ h6 {
 	min-height: 100%;
 }
 
+/*CHAMBRE ROOM*/
+.img_chambre_title_container {
+	display: flex;
+	align-items: center;
+}
+.img_chambre_title {
+	height: 70%;
+}
+
+.img_chambre_title img {
+	height: 100%;
+	object-fit: cover;
+}
+
 /*img_gallery*/
 .img_gallery {
 	height: 280px;
@@ -4818,9 +4844,13 @@ h6 {
 
 /* ROOMS */
 
-
-.rooms-images .image-container {
-	width: 50%;
+.image-container img {
+	width: 100%;
+}
+@media screen and (min-width: 768px) {
+	.rooms-images .image-container {
+		width: 80%;
+	}
 }
 
 .rooms-images .img_1 {

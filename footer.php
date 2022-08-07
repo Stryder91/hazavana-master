@@ -6,10 +6,10 @@
 								<div class="col-xl-3 col-md-6 col-lg-3">
 										<div class="footer_widget">
 												<h3 class="footer_title">
-														addresse
+														adresse
 												</h3>
 												<p class="footer_text"> Quartier Mahavelona Foulpointe, Madagascar </p>
-												<a href="#" class="line-button">Get Direction</a>
+												<a href="contact.php" class="line-button">En savoir plus</a>
 										</div>
 								</div>
 								<div class="col-xl-3 col-md-6 col-lg-3">
@@ -31,9 +31,8 @@
 												</h3>
 												<ul>
 														<li><a href="#">Home</a></li>
-														<li><a href="#">Rooms</a></li>
-														<li><a href="#">About</a></li>
-														<li><a href="#">News</a></li>
+														<li><a href="about_lodge.php">Informations</a></li>
+														<li><a href="contact.php">Contact</a></li>
 												</ul>
 										</div>
 								</div>

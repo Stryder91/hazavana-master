@@ -80,7 +80,7 @@
 
     <!-- video_area_start -->
     <div class="video_area video_bg overlay">
-        <a href="about.php">
+        <a href="about_lodge.php">
         <div class="video_area_inner text-center">
                 <span>Découvrez l'hôtel et ses alentours</span>
                 <h3>Hazavana Lodge à Foulpointe</h3>
@@ -162,6 +162,20 @@
     <!-- form itself end-->
     <?php include("form_add_resa.php"); ?>
     <!-- form itself end -->
+
+    <script>
+        const currentMonth = new Date().getMonth() + 1;
+        // July & August
+        if (currentMonth == 7 || currentMonth == 8) {
+            document.getElementById("amountPriceBungalow").textContent="95 000"
+            document.getElementById("amountPriceChambre").textContent="130 000"
+        } else {
+            document.getElementById("amountPriceBungalow").textContent="80 000"
+            document.getElementById("amountPriceChambre").textContent="100 000"
+        }
+
+
+    </script>
     <?php include("scriptsJS.php"); ?>
     
 </body>

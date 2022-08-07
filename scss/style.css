@@ -1,7 +1,0 @@
-html {
-  scroll-behavior: smooth;
-}
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$lg\".\A         on line 7 of C:/Users/Dg/Documents/Code/hazavana-master/scss/_booking.scss\A         from line 10 of C:\Users\Dg\Documents\Code\hazavana-master\scss\style.scss\A \A 2: @import 'varriable.scss';\A 3: @import 'mixins.scss';\A 4: @import 'extend';\A 5: @import 'responsive.scss';\A 6: @import 'theme-default.scss';\A 7: @import 'btn';\A 8: @import 'section_title';\A 9: @import 'slick-nav.scss';\A 10: @import 'booking.scss';\A 11: \A 12: "; }

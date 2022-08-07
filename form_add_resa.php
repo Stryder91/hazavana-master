@@ -2,7 +2,7 @@
 	<div class="popup_box">
 		<div class="popup_inner">
 			<h3>Demande de réservation</h3>
-			<p class="primColor"> Une remise de 5% est accordée aux clients ayant effectué une réservation de plus de 5 nuitées. </p>
+			<p class="primColor font-weight-bold"> Profitez d'une remise de 5% avec une réservation de plus de 5 nuitées! </p>
 				<div class="row">		
 					<div class="col-xl-12">
 						<input class="form-group form-control" type="text" placeholder="Nom" name="nom" />
